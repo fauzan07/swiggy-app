@@ -1,0 +1,32 @@
+
+.auth{
+    background-color: #fff;
+    height: 100vh;
+}
+
+.auth-banner{
+    background-image: url("../../assets/auth-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    margin-left: calc(9% - 9vw);
+    margin-right: calc(9% - 9vw);
+}
+
+a.a-link{
+    text-decoration: none;
+    color: #f7812a;
+    font-weight: 600;
+}
+
+
+.authentication .btn {
+    border-radius: 2px;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding: 10px 19px;
+    cursor: pointer
+}
+
+

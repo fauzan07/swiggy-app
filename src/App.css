@@ -1,0 +1,87 @@
+html {scroll-behavior: smooth;}
+body{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    /* padding-top: 70px; */
+    line-height: 1.5;
+    background-color: #f8f9fa;
+}
+
+/* .wrapper{
+    padding-top: 50px;
+}
+
+.main{
+    margin-left: 300px; 
+    padding: 0px 5px;
+} */
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: none;
+    color: #000;
+}
+h1, .h1 {font-size: 1.9em;}
+h2, .h2 {font-size: 1.7em;}
+h3, .h3 {font-size: 1.5em;}
+h4, .h4 {font-size: 1.12em;}
+h5, h6, .h5, .h6{font-size: 0.9em; }
+
+p,li {color: #666; font-size: 0.9em;}
+a {color: #444; text-decoration: none;  transition: 0.3s;}
+
+.btn-primary{
+    background-color:#f7812a;
+    border-color: #f7812a;
+}
+
+.btn-primary:hover{
+    background-color: #f7812a;
+}
+
+.text-primary{
+    color:#f7812a !important;
+}
+
+.btn-outline-primary{
+    color:#f7812a;
+    border: 1px solid #f7812a;
+    font-size: 0.8em;
+}
+
+.btn-outline-primary:hover{
+    background-color: #f7812a;
+}
+
+.banner-sec{
+    background-color: #000;
+}
+
+.rate-box-orange{
+    background-color: #f7812a;
+    border: 2px #f7812a solid;
+    padding: 1px 10px;
+}
+
+small.rate-box-orange{
+   color: #fff;
+   font-weight: 600;
+}
+
+.rate-box-green{
+    background-color: #2af77f;
+    border: 2px #2af77f solid;
+    padding: 1px 10px;
+}
+
+small.rate-box-green{
+   color: #fff;
+   font-weight: 600;
+}
+
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
